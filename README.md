@@ -8,4 +8,4 @@
 # step 3
 1. creating routing file backend/routes/index.js
 
-
+ step 5 -> add cors body parser jwt and port number
