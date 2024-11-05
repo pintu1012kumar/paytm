@@ -9,7 +9,13 @@ app.use(express.json());
 
 app.use("/api/v1", rootRouter);
 
-app.listen(3000);
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+
+app.listen(3000 ,() => {
+    console.log(`Example app listening on port 3000`)
+  });
 
 // /api/v1/user/signup
 // /api/v1/user/signin
