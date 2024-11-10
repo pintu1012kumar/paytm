@@ -10,11 +10,11 @@ app.use(express.json());
 app.use("/api/v1", rootRouter);
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello World')
   })
 
-app.listen(3000 ,() => {
-    console.log(`Example app listening on port 3000`)
+app.listen(3005 ,() => {
+    console.log(`Example app listening on port 3003`)
   });
 
 // /api/v1/user/signup
